@@ -22,7 +22,7 @@ console.log('success lockify project ')})
 .catch((err)=>{console.log(err)})
 
 
-app.get('/test',(req,res)=>{
+app.get('/',(req,res)=>{
 
     console.log('request  recieved');
     res.json({msg:'to frontend'})
